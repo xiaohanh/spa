@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+.rectangle-calc{
+  margin-left:100px;
+}
+#aa{
+  color:red;
+}
+
+#bb{
+  color:red;
+}
+  </style>
+</head>
+
+<body>
+  
+<div class="rectangle">
+  <label for="rectangle-width">宽度：</label>
+  <input id="rectangle-width" type="textbox" ><span id="aa"></span>
+  <br>
+  <p><p/>
+  <label for="rectangle-height">高度：</label>
+  <input id="rectangle-height" type="textbox"><span id="bb"></span>
+  <br>
+  <p></p>
+  <input id="rectangle-calc" type="button" value="计算"  >
+  <br>
+  <p></p>
+  <label for="rectangle-perimeter">周长：</label>
+  <input id="rectangle-perimeter" type="textbox">
+   <p></p>
+  <label for="rectangle-area">面积：</label>
+  <input id="rectangle-area" type="textbox">
+</div>
+
+
+</body>
+<script type="text/javascript">
+
+
+    
+   var width = document.getElementById("rectangle-width"); 
+   var height =document.getElementById('rectangle-height');
+   var calc = document.getElementById('rectangle-calc');
+   var perimeter =document.getElementById('rectangle-perimeter');
+   var area = document.getElementById('rectangle-area');
+   var aa=document.getElementById('aa');
+   var bb=document.getElementById('bb');
+   width.onblur = function(){
+
+     if(width.value == ''){
+         aa.innerHTML = "宽度不能为空!";
+     }
+   }
+height.onblur = function(){
+  if(height.value ==''){
+       bb.innerHTML = "高度不能为空!";
+   }
+} 
+
+
+
+calc.onclick=function(){
+    var wid =width.value;
+    var hei =height.value;
+    
+    perimeter.value=wid * 2 +hei * 2;
+    area.value = wid * hei ;
+    
+    }
+
+</script>
+
+</html>
