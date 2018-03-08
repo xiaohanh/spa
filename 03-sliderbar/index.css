@@ -1,0 +1,19 @@
+
+	  .content{
+	  	font-size:20px;
+	  }
+	  #aa{
+	  	width:30px;
+	  	height:20px; 
+	  	font-size:10px;
+	    font-weight: bold;
+
+	  }
+	  #scaler{
+	  	display:block; 
+	 
+	  	margin-top:30px;
+	  	width:200px;
+	  	height:20px;
+	  	color:red;
+	  }
