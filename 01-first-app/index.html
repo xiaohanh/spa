@@ -2,19 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
-  <style>
-.rectangle-calc{
-  margin-left:100px;
-}
-#aa{
-  color:red;
-}
+  <title>计算器</title>
+   <link href="index.css" rel="stylesheet" type="text/css"/>
 
-#bb{
-  color:red;
-}
-  </style>
 </head>
 
 <body>
@@ -40,40 +30,6 @@
 
 
 </body>
-<script type="text/javascript">
-
-
-    
-   var width = document.getElementById("rectangle-width"); 
-   var height =document.getElementById('rectangle-height');
-   var calc = document.getElementById('rectangle-calc');
-   var perimeter =document.getElementById('rectangle-perimeter');
-   var area = document.getElementById('rectangle-area');
-   var aa=document.getElementById('aa');
-   var bb=document.getElementById('bb');
-   width.onblur = function(){
-
-     if(width.value == ''){
-         aa.innerHTML = "宽度不能为空!";
-     }
-   }
-height.onblur = function(){
-  if(height.value ==''){
-       bb.innerHTML = "高度不能为空!";
-   }
-} 
-
-
-
-calc.onclick=function(){
-    var wid =width.value;
-    var hei =height.value;
-    
-    perimeter.value=wid * 2 +hei * 2;
-    area.value = wid * hei ;
-    
-    }
-
-</script>
+ <script type="text/javascript" src="index.js"></script>
 
 </html>
