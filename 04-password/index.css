@@ -1,0 +1,38 @@
+form {
+  margin: 20px auto ;
+}
+ label {
+  font-size: 20px;
+}
+input{
+	font-size: 20px;
+}
+
+img {
+  display: inline-block;
+  height: 27px;
+  line-height:27px;
+  margin-left:-37px;
+  margin-bottom:-4px;
+}
+#pw {
+   width: 216px;
+  height: 27px;
+  margin: 0;
+}
+
+.pwDisplay {
+	display: none;
+  width: 190px;
+  height: 27px;
+   margin-left:0px;
+   top:2px;
+  position: absolute;
+  border: #fff;
+}
+
+
+.inputs {
+  position: relative;
+  display: inline-block;
+}
