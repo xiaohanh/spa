@@ -5,4 +5,8 @@
 ### [字段级验证计算器](https://xiaohanh.github.io/spa/01-datacheck-field/index.html)
 
 ### [字符级验证计算器](https://xiaohanh.github.io/spa/01-datacheck-character/index.html)
-### [H5校验](https://xiaohanh.github.io/spa/01-datacheck-h5/index.html)
+
+
+### [字段级验证计算器](https://xiaohanh.github.io/spa/01-datacheck-form/index.html)
+
+### [H5校验计算器](https://xiaohanh.github.io/spa/01-datacheck-h5/index.html)
