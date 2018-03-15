@@ -13,3 +13,4 @@
 ### [二进熵函数曲线](https://xiaohanh.github.io/spa/06-third-echarts/index.html)
 
 ### [语法高亮](https://xiaohanh.github.io/spa/06-third-highlight/index.html)
+### [Excel表格](https://xiaohanh.github.io/spa/06-third-excel/index.html)
