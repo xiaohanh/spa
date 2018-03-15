@@ -10,3 +10,4 @@
 ### [表单验证计算器](https://xiaohanh.github.io/spa/01-datacheck-form/index.html)
 
 ### [H5校验计算器](https://xiaohanh.github.io/spa/01-datacheck-h5/index.html)
+### [二进熵函数曲线](https://xiaohanh.github.io/spa/06-third-echarts/index.html)
