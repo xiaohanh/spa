@@ -21,11 +21,11 @@
       var max = Math.max(lenX, lenY);
         
 
-    
+  if(aa.content=='√'&& bb.content == "√"){
     perimeter.value= (x * (10 ** max) + y * (10 ** max)) * 2 / (10 ** max);
     area.value=  (x * (10 ** max)) * (y * (10 ** max)) / (10 ** (2 * max));
      
-   
+  } 
      
   }
 

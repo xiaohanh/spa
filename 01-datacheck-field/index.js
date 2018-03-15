@@ -38,8 +38,10 @@
       var lenY = (y.split('.').length === 2) ? y.split('.')[1].length : 0;
 
       var max = Math.max(lenX, lenY);
+      if(aa.innerHTML =='' && bb.innerHTML ==''){
      perimeter.value= (x * (10 ** max) + y * (10 ** max)) * 2 / (10 ** max);
     area.value=  (x * (10 ** max)) * (y * (10 ** max)) / (10 ** (2 * max));
               //perimeter.value=wid * 2 +hei * 2;
               //  area.value = wid * hei ;
-  }              
+  }
+  }      
