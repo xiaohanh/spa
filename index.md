@@ -15,4 +15,5 @@
 ### [语法高亮](https://xiaohanh.github.io/spa/06-third-highlight/index.html)
 ### [Excel表格](https://xiaohanh.github.io/spa/06-third-excel/index.html)
 ### [定时器按钮组件测试](https://xiaohanh.github.io/spa/02-time-component/index.html)
+### [密码可见组件测试](https://xiaohanh.github.io/spa/04-password-component/index.html)
 
